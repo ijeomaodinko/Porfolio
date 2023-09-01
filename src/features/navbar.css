@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9; 
+    padding: 20px;
+    width:  97%;
+    top: 0;
+    position: fixed;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .navbar-logo img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .navbar-logo span {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar-items a {
+    text-decoration: none;
+    color: #333333;
+    margin-right: 20px;
+  }
+  
+  .navbar-items a:hover {
+    color: #007bff; 
+  }
+  

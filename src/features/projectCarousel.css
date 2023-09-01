@@ -1,0 +1,121 @@
+/* MoreProjectsCarousel.css */
+
+.more-projects-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 170%;
+    max-width: 1200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 2rem;
+    margin-right: auto;
+    border-radius: 29px;
+  }
+  
+  .arrow {
+    background-color: rgba(0, 0, 0, 0.5);;
+    color: #fff;
+    font-size: 24px;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carousel-content {
+    flex: 1;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 29px;
+  }
+  
+  .carousel-item {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .project-details {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .project-details img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-info {
+    text-align: left;
+  }
+  
+  .project-info h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333333;
+  }
+  
+  .project-info p {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 10px;
+  }
+  
+  .project-info a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .project-info a:hover {
+    background-color: #0056b3;
+  }
+  
+  .left-arrow {
+    margin-right: 20px;
+  }
+  
+  .right-arrow {
+    margin-left: 20px;
+  }
+  
+  .pagination {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  margin-top: 14rem;
+}
+
+.pagination-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #bbb;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pagination-dot.active {
+  background-color: #333;
+}

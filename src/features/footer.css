@@ -1,0 +1,71 @@
+/* footer.css */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9; 
+    padding: 30px 20px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif; /* Add a subtle box shadow */
+  }
+  
+  .footer-content {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Add some spacing between the logo and links */
+  }
+  
+  .footer-logo img {
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .footer-logo span {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .footer-links a {
+    text-decoration: none;
+    color: #333333;
+    margin-right: 20px;
+    font-size: 16px;
+    transition: color 0.2s ease; /* Add a smooth transition on hover */
+  }
+  
+  .footer-links a:hover {
+    color: #007bff; 
+  }
+  
+  .footer-contact p {
+    margin: 5px 0; /* Reduce the margin between contact information */
+    font-size: 16px;
+    color: #666666;
+   }
+  
+  .footer-social a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .footer-social img {
+    height: 30px;
+  border-radius: 50%; /* Round the social media icons for a modern look */
+  transition: transform 0.2s ease;
+  }
+  
+  .footer-social img:hover {
+    transform: scale(1.2); /* Add a slight scale effect on hover for social media icons */
+  }
+  
+  /* Add more styles for social media icons as needed */
+  
