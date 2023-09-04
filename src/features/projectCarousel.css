@@ -1,15 +1,12 @@
-/* MoreProjectsCarousel.css */
-
 .more-projects-carousel {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 170%;
-    max-width: 1200px;
     background-color: rgba(0, 0, 0, 0.5);
-    margin-left: 2rem;
+    margin-left: 0;
     margin-right: auto;
-    border-radius: 29px;
+    border-radius: 10px;
   }
   
   .arrow {
@@ -28,18 +25,18 @@
   
   .carousel-content {
     flex: 1;
+    max-width: 120%;
     height: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
     background-color: #fff;
-    border-radius: 29px;
+    border-radius: 10px;
   }
   
   .carousel-item {
     width: 100%;
-    max-width: 800px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,19 +44,31 @@
   
   .project-details {
     display: flex;
+    flex-direction: row;
     align-items: center;
     gap: 20px;
   }
   
-  .project-details img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  .project-a-img {
+    width: 90%;
+  }
+  
+  .project-a-img img {
+    width: 100%;
+    height: 52.9vh;
+    margin-left: 10px;
+    border-radius: 10px;
   }
   
   .project-info {
+    width: 100%;
     text-align: left;
+    margin-bottom: auto;
+    background-color: #f0f9ff;
+    padding: 10px;
+    height: 50vh;
+    border-radius: 10px;
+    margin-right: 10px;
   }
   
   .project-info h3 {
@@ -67,12 +76,13 @@
     font-weight: bold;
     margin-bottom: 10px;
     color: #333333;
+    text-align: center;
+    margin-top: auto;
   }
   
   .project-info p {
     font-size: 16px;
     color: #666666;
-    margin-bottom: 10px;
   }
   
   .project-info a {
@@ -97,6 +107,36 @@
   .right-arrow {
     margin-left: 20px;
   }
+
+  .btn-add-itech {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0 0;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .btn-add-itech p{
+    color: #fff;
+    margin-bottom: auto;
+    margin-top: auto;
+    font-weight: 250;
+  }
+  .btn-add-itech:hover {
+    margin-right: 0;
+  }
+  
+  .btn-addtech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
   
   .pagination {
   position: absolute;

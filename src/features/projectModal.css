@@ -1,5 +1,4 @@
 .project-modal {
-  /* Styles for the outer modal container */
   position: fixed;
   top: 0;
   left: 0;
@@ -12,13 +11,12 @@
 }
 
 .modal-content {
-  /* Styles for the modal content box */
   background-color: #fff;
-  width: 60%; /* Set modal width to 60% of the screen */
+  width: 60%;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  position: relative; /* For positioning the close button */
+  position: relative;
 }
 
 .modalclose {
@@ -76,6 +74,12 @@
   margin-bottom: 10px;
 }
 
+.project-tech p {
+  margin-top: auto;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
 .btn-add-i {
   background-color: #007bff;
   color: #fff;
@@ -90,6 +94,9 @@
 
 .btn-add-i p{
   color: #fff;
+  margin-bottom: auto;
+  margin-top: auto;
+  font-weight: 400;
 }
 .btn-add-i:hover {
   margin-right: 0;
