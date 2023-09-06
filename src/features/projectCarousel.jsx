@@ -43,10 +43,10 @@ const ProjectCarousel = ({ projects }) => {
               <div className='btn-addtech'> 
           <div  className='btn-add-itech'>
            <a href={currentProject.live} target="_blank" rel="noreferrer" >
-        <p>Live <span><FaGithub  style={{color: '#ffffff',  marginLeft: 12}} /></span></p>
+        <p><FaGithub  style={{color: '#ffffff',  marginLeft: 12}} /> <span>Live</span></p>
         </a></div>
         <button className='btn-add-itech'> <a href={currentProject.source} target="_blank"
-        rel="noreferrer" ><p>Source <span> <FaExternalLinkAlt style={{color: '#ffffff', marginLeft: 12}} /></span> </p></a> </button>
+        rel="noreferrer" ><p> <FaExternalLinkAlt style={{color: '#ffffff', marginLeft: 12}} /> <span>Source</span> </p></a> </button>
         </div>
 
             </div>

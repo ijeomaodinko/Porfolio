@@ -125,6 +125,10 @@
     margin-top: auto;
     font-weight: 250;
   }
+
+  .btn-add-itech span {
+    padding-left: 10px
+  } 
   .btn-add-itech:hover {
     margin-right: 0;
   }
@@ -140,16 +144,16 @@
   
   .pagination {
   position: absolute;
-  left: 50%;
+  left: 60%;
   transform: translateX(-50%);
   display: flex;
   gap: 10px;
-  margin-top: 14rem;
+  margin-top: 27.9rem;
 }
 
 .pagination-dot {
-  width: 8px;
-  height: 8px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
   background-color: #bbb;
   cursor: pointer;

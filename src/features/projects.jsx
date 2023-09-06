@@ -9,6 +9,7 @@ import crypto from '../assets/images/crypto.jpg';
 import math from '../assets/images/math.jpg';
 import ecommercem from '../assets/images/ecommerce.png';
 import bookstore from '../assets/images/bookstore.png';
+import eraimag from '../assets/images/eraimag.png';
 
 
 
@@ -25,7 +26,8 @@ const projects = [
 const moreProjects = [
   { title: 'Book Store', description: 'This project is for online users who want to store an ebook with the details of the books.',
    tech: ['React', 'Redux', 'CSS', 'Netlify'], live: 'https://bookstoreonlineport.netlify.app/', source: 'https://github.com/ijeomaodinko/React-Project', image: bookstore },
-  { title: 'More Project 2', description: 'Description 2', tech: ['Tech 2'], link: '/more-project2', image: 'project2.jpg' },
+  { title: 'Era Program', description: 'This "Era-Program" is a website for training on software development which was put up as advertisement and awareness to the public.', 
+  tech: ['HTML5', 'CSS', 'JavaScript'], live: 'https://ijeomaodinko.github.io/Era-Program/',  source: 'https://github.com/ijeomaodinko/Era-Program', image: eraimag  },
   { title: 'More Project 3', description: 'Description 3', tech: ['Tech 3'], link: '/more-project3', image: 'project3.jpg' },
   // Add more "More Projects" here
 ];
