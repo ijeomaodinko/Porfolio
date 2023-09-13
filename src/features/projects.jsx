@@ -16,6 +16,9 @@ import erypto from '../assets/images/erypto.png';
 import mathi from '../assets/images/math.png';
 import spacetravelershub from '../assets/images/spacetravelershub.png';
 import awesomebooksi from '../assets/images/awesomebooksi.png';
+import todo from '../assets/images/todo.png';
+import leaderboard from '../assets/images/leaderboard.png'; 
+import horror from '../assets/images/horror.png';
 
 
 
@@ -40,13 +43,28 @@ const moreProjects = [
   tech: ['HTML5', 'CSS', 'JavaScript'], live: 'https://ijeomaodinko.github.io/Era-Program/',  source: 'https://github.com/ijeomaodinko/Era-Program', image: eraimag  },
   { title: 'Portfolio', description: 'This "Portifolio-Page" is a listing of my portifolio. It has different activities and it description.', tech: ['HTML5', 'CSS3', 'JavaScript'], live: 'https://ijeomaodinko.github.io/Portfolio-Page/',  source: 'https://github.com/ijeomaodinko/Portfolio-Page', image: portfoloi },
  
-  { title: 'Space Traveler', description: 'The real live data from the SpaceX API was used to build a web for company that provides commercial and scientific space travel services. The application allow users to book rockets, dragons and join selected space missions.',
+  { title: 'Space Traveler', description: 'The real live data from the SpaceX API was used to build a web. The application allow users to book rockets, dragons and join selected space missions.',
    tech: ['React', 'Redux', 'CSS', 'Netlify'], live: 'https://space-travellers-hubi.netlify.app/', source: 'https://github.com/ijeomaodinko/Space-Travelers-Hub', image: spacetravelershub },
   { title: 'Era Program', description: 'This "Era-Program" is a website for training on software development which was put up as advertisement and awareness to the public.', 
   tech: ['HTML5', 'CSS', 'JavaScript'], live: 'https://ijeomaodinko.github.io/Era-Program/',  source: 'https://github.com/ijeomaodinko/Era-Program', image: eraimag  },
   { title: 'Awesome Books', description: 'This "Awesome books" is a simple website that displays a list of books and allows add and remove books from that list. By building this application, I manage data using JavaScript. The website is more interactive. I also use a medium-fidelity wireframe to build the UI.',
    tech: ['HTML5', 'CSS3', 'JavaScript'], live: 'https://awesomebooksi.netlify.app',  source: 'https://github.com/ijeomaodinko/Awesome-book', image: awesomebooksi },
-  // Add more "More Projects" here
+ 
+
+   { title: 'Todo App', description: 'This "To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.',
+   tech: ['HTML5', 'JavaScript ES6', 'Webpack', 'CSS', 'Netlify'], live: 'https://todo-list-assign.netlify.app', source: 'https://github.com/ijeomaodinko/todo-list-project', image: todo },
+  { title: 'Leaderboard', description: 'This project contains codes that enables users get and add data to the API. The data is then displayed in a table. The user can also post data to the API.', 
+  tech: ['HTML5', 'CSS', 'JavaScript'], live: 'https://leaderboarz.netlify.app',  source: 'https://github.com/ijeomaodinko/leaderboard_project', image: leaderboard  },
+  { title: 'Horror Movies', description: 'This project contains codes that enables users get from and add data to the API. It shows information about movie shows. People can browse through, like and comment.',
+   tech: ['HTML5', 'CSS3', 'Webpack', 'JavaScript'], live: 'https://ijeomaodinko.github.io/CAPSTONE_2/dist/',  source: 'https://github.com/ijeomaodinko/CAPSTONE_2', image: horror },
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   // Add more "More Projects" here
 ];
 
 
